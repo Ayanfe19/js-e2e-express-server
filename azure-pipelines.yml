@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  ci-cd-vm
 
 steps:
 - script: echo Hello, world!
